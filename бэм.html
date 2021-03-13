@@ -5,41 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bem.css" rel="stylesheet" type="text/css">
     <title>БЭМ</title>
-    <style>
 
-    </style>
 </head>
 
 <body>
     <div class="container">
         <header class="header">
-            <img src="images/browser.png" alt="browser">
+            <h1>
+                VR
+            </h1>
         </header>
         <main>
+            <div class="page">
+                <img class="page__pic" src="images/logo.png" alt="logo">
+                <h1 class="page__text"> ВИАРУШКА </h1>
+                <button class="page__button"> Корзина <img src="images/ico.png" alt="basket"> </button>
+            </div>
             <div class="main">
-                <img class="main__pic" src="images/logo.png" alt="logo">
-                <button class="main__button"> Корзина <img src="images/ico.png" alt="basket"> </button>
+                <div class="main-content">
+                    <h1 class="main-content__text"> Виртуальная<br> реальность<br> без проводов<br> </h1>
+                    <p class="main-content__subtitle"> Лучшее, что случалось с виртуальным миром <br> в реальности.
+                        Новый
+                        компактный
+                        шлем<br>
+                        без проводов
+                        и дорогих
+                        комьютеров. </p>
+                    <button class="main-content__button"> Купить <img src="images/icon.png" alt="buy"> </button>
+                </div>
+                <div class="main-section">
+                    <div class="main-section__guy" style="background-image: url(images/background.png);">
+                        <img class="main-section__picture" src="images/guy.png" alt="guy">
+                    </div>
+                </div>
             </div>
-            <div class="content">
-                <h1 class="content__text"> ВИАРУШКА </h1>
-                <h1 class="content__text"> Виртуальная реальность без проводов </h1>
-                <p class="main__subtitle"> Лучшее, что случалось с виртуальным миром в реальности. Новый компактный шлем
-                    без проводов
-                    и дорогих
-                    комьютеров. </p>
-                <button class="content__button"> Купить <img src="images/icon.png" alt="buy"> </button>
-            </div>
-    </div>
-    <div class="section">
-        <div class="section__guy" style="background-image: url(images/background.png);">
-            <img class="section__picture" src="images/guy.png" alt="guy">
-        </div>
         </main>
     </div>
     <footer class="footer">
-        <nav>
-            <ul>
+        <nav class="footer__nav">
+            <ul class="footer__nav">
                 <li> Возможности </li>
                 <li> Где купить </li>
                 <li> Доставка </li>

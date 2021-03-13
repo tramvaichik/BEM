@@ -1,0 +1,56 @@
+.header {
+    text-align: center;
+    color: #E5E5E5;
+}
+
+.main-content__text {
+    font-family: Intro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 120%;
+}
+
+.page__button {
+    background-color: rgba(82, 34, 208, 1);
+    color: white;
+    text-align: center;
+    display: inline-flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+
+.page {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.main-content__subtitle {
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.main-content__button {
+    background-color: rgba(82, 34, 208, 1);
+    color: white;
+    text-align: center;
+    display: inline-flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__nav {
+    text-align: justify;
+    color: rgba(82, 34, 208, 1);
+    list-style-type: none;
+}
