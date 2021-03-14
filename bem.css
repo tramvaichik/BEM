@@ -8,19 +8,22 @@
     width: 100%;
 }
 
-.page {
+.section-page {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
+.page {
+    display: flex;
+    justify-content: flex-end;
+
+}
 
 .page__button {
     background-color: rgba(82, 34, 208, 1);
     color: white;
     text-align: center;
-    display: inline-flex;
-    justify-content: flex-end;
     border-radius: 20px;
 }
 
@@ -50,9 +53,13 @@
     background-color: rgba(82, 34, 208, 1);
     color: white;
     text-align: center;
-    display: inline-flex;
-    justify-content: flex-end;
-    border-radius: 20px;
+    border-radius: 30px;
+    padding: 15px;
+    font-family: Intro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 35px;
 }
 
 
